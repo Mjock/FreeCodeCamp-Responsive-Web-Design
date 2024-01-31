@@ -1,0 +1,44 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering main content */
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling title */
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling image */
+#img-div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styling tribute info */
+#tribute-info {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Styling tribute link */
+#tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
